@@ -28,13 +28,13 @@
 .checkbox {
     display: inline-block;
     position: relative;
-    width: 15px; /* Adjust size as needed */
-    height: 15px; /* Adjust size as needed */
+    width: 15px; 
+    height: 15px; 
     margin-right: 7%;
 }
 
 .checkbox input[type="checkbox"] {
-    display: none; /* Hide the default checkbox */
+    display: none; 
 }
 
 .checkbox label {
@@ -50,14 +50,14 @@
 }
 
 .checkbox input[type="checkbox"]:checked + label {
-    background-color: green; /* Change to your desired color */
+    background-color: green; 
 }
 
 .checkbox input[type="checkbox"]:checked + label::after {
     content: "";
     display: block;
-    width: 8px; /* Adjust dot size as needed */
-    height: 8px; /* Adjust dot size as needed */
+    width: 8px; 
+    height: 8px; 
     background-color: white;
     border-radius: 50%;
     position: absolute;
@@ -68,7 +68,6 @@
 
 .main2 {
     width: 20%;
-    /* display: flex; */
     border: 1px solid black;
     padding: 10px 20px;
     align-items: center;
